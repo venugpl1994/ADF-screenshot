@@ -11,6 +11,6 @@ The following step we need to build to  migrate data from AZure SQL Database to 
 5)ADLS_CSV connected with AzuredataLakestorage1 Linkedservice where parameter is folderpath and give filepath- @dataset().folderpath()
 6)Create AzureDataLakestorage1 Linkedservice which is connected with storage100mission ADLS 
 
-TO create any ADF general pipeline the general method is :
+To create any ADF general pipeline the general method is :
 
 Azure SQL DB->>>>>missionsqldb Linkedservice->>>>>SQL_GENERIC_DS->>>>>>>Copy Activity->>>>>>>>ADLS_CSV_DS->>>>>>>AzureDataLakestorage1 Linkedservice->>>Storage account
